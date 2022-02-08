@@ -1,0 +1,134 @@
+<html>
+<head>
+<title>regform</title>
+</head>
+ 
+ <body bgcolor="#e0efe">
+ <h1><center><b>REGISTERATION FOR ARTS CLUB</b></center></h1>
+ <form name="regform" >
+ <table align="center" cellspacing="4" cellpadding="2" border="0" width="80%">
+ <tr>
+ <td>
+ <label>NAME</label>
+ </td>
+ <td>
+ <input type="text" name="name" id="name" maxlength="20"><br><br>
+ </td>
+ </tr>
+ <tr>
+ <td>
+ <label>DATE OF BIRTH</label>
+ </td>
+ <td>
+ <input type="date" name="dob" id="dob"><br><br>
+ </td>
+ </tr>
+ <tr>
+ <td>
+ <label>GENDER</label>
+ </td>
+ <td>
+ <input type="radio" name="gender" value="MALE" id="gender">MALE
+ <input type="radio" name="gender" value="FEMALE" id="gender">FEMALE
+ <input type="radio" name="gender" value="OTHERS" id="gender">OTHERS
+ </td>
+ </tr>
+ <tr>
+ <td>
+ <label>STATE</label>
+ </td>
+ <td>
+ <SELECT>
+ <option value="KERALA">KERALA</option>
+ <option value="KARNATAKA">KARNATAKA</option>
+ <option value="TAMIL NADU">TAMIL NADU</option>
+ </SELECT>
+ </td>
+ </tr>
+ <tr>
+ <td>
+ <label>YOUR AREA OF INTEREST</label>
+ </td>
+ <td>
+ <input type="checkbox" name="aoi1" id="aoi1" value="MUSIC">MUSIC
+ <input type="checkbox" name="aoi2" id="aoi2" value="DANCE">DANCE
+ <input type="checkbox" name="aoi3" id="aoi3" value="DRAWING">DRAWING
+ <input type="checkbox" name="aoi4" id="aoi4" value="WRITING">WRITING
+ <input type="checkbox" name="aoi5" id="aoi5" value="OTHERS">OTHERS
+ </td>
+ </tr>
+ <tr>
+ <td>
+ <label>ENTER YOUR GUARDIAN'S NAME</label>
+ </td>
+ <td>
+ <input type="text" id="gname" name="gname" maxlength="20">
+ </td>
+ </tr>
+ <tr>
+ <td>
+ <label>PHONE NUMBER </label>
+ </td>
+ <td>
+ <select name="country-code">
+ <option data-countryCode="IN" value="91" selected>India (+91)</option>
+ </select>
+ <input type="text" name="phno" id="phno" maxlength="10">
+ </td>
+ </tr>
+ <tr>
+ <td>
+ <label>PERMANENT ADDRESS:</label>
+ </td>
+ <td>
+ <textarea rows="5" cols="40">ADDRESS</textarea>
+ </td>
+ </tr>
+ <tr>
+ <td>
+ <label>PIN</label>
+ </td>
+ <td>
+ <input type="text" name="pin" id="pin" maxlength="6">
+ </td>
+ </tr>
+ <br>
+ <tr>
+ <td>
+ <label>CHOOSE A USER NAME</label> 
+ </td>
+ <td>
+ <input type="text" name="username" id="username">
+ </td>
+ </tr>
+ <tr>
+ <td>
+ <label>PASSWORD</label>
+ </td>
+ <td>
+ <input type="password" name="pw" id="pw">
+ </td>
+ </tr>
+ <br><br>
+ <tr>
+ <td>
+ <label>RE-ENTER PASSWORD</label>
+ </td>
+ <td>
+ <input type="password" name="rpw" id="rpw">
+ </td>
+ </tr>
+ <tr>
+ <td colspan="2">
+ <center>
+ <input type="submit" value="SUBMIT">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+ <input type="reset" value="RE-SET">
+ </center>
+ </td>
+ </tr>
+ </table>
+ </form>
+ </body>
+ </html>
+ 
